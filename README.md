@@ -84,9 +84,11 @@ Tres palabras clave definen la marca personal: **claro, confiable, preciso**.
 
 ## 🔍 Fidelidad de implementación (Figma vs. sitio web)
 
-| Figma (prototipo mobile 375) | Implementación en producción |
-|:---:|:---:|
-| <img src="assets/docs/figma/mobile-hero-figma.png" width="350" alt="Prototipo Figma mobile" /> | <img src="assets/docs/mobile-web-hero.webp" width="350" alt="Implementación web mobile" /> |
+### Comparación en desktop (1280 px, modo oscuro)
+
+![Hero: Figma vs sitio](assets/docs/comparacion-hero.png)
+
+![Skills: Figma vs sitio](assets/docs/comparacion-skills.png)
 
 ---
 
