@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dylan Meharú · Diseño UX/UI y Front-end</title>
+  <meta name="description"
+    content="Portfolio de Dylan Meharú, estudiante de Sistemas de Información (UADER). Casos de estudio de UX/UI y maquetación front-end accesible.">
+  <meta name="theme-color" content="#f5f8fc">
+  <meta property="og:title" content="Dylan Meharú · Diseño UX/UI y Front-end">
+  <meta property="og:description" content="Casos de estudio de UX/UI y maquetación front-end accesible.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="og-image.png">
+  <link rel="icon"
+    href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23c2410c'/%3E%3Ctext x='16' y='22' font-size='16' font-family='sans-serif' font-weight='700' text-anchor='middle' fill='white'%3EDM%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;0,800;1,400;1,600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <a class="skip" href="#main">Saltar al contenido</a>
+
+  <header class="site-header">
+    <div class="container bar">
+      <a href="#top" class="logo" aria-label="Dylan Meharú, inicio">DM</a>
+      <button class="menu-btn" aria-expanded="false" aria-controls="nav" aria-label="Abrir menú">☰</button>
+      <nav id="nav" class="nav" aria-label="Principal">
+        <ul>
+          <li><a href="#metrics">Highlights</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Proyectos</a></li>
+          <li><a href="#experience">Formación</a></li>
+          <li><a href="#about">Sobre mí</a></li>
+          <li><a href="https://github.com/TU-USUARIO" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+          <li><a class="btn btn-primary" href="#contact">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="top" class="hero container">
+      <p class="badge"><span aria-hidden="true">●</span> Disponible para pasantías · UTC−3, Entre Ríos, Argentina</p>
+      <h1>Dylan Meharú</h1>
+      <p class="role">Estudiante de Sistemas de Información · Diseño UX/UI &amp; Front-end</p>
+      <p class="lead">Diseño interfaces claras y las llevo a código semántico, responsive y accesible, desde la
+        investigación hasta el deploy.</p>
+      <div class="actions">
+        <a class="btn btn-primary" href="#projects">Ver trabajos</a>
+        <a class="btn btn-secondary" href="#contact">Contactame</a>
+      </div>
+    </section>
+
+    <section id="metrics" class="container" aria-labelledby="h-metrics">
+      <h2 id="h-metrics" class="sr-only">Highlights</h2>
+      <ul class="grid metrics">
+        <li class="card"><span class="num">3</span><span>años de estudio universitario</span></li>
+        <li class="card"><span class="num">3</span><span>proyectos UX/UI publicados</span></li>
+        <li class="card"><span class="num">5</span><span>herramientas de diseño y desarrollo</span></li>
+        <li class="card"><span class="num">≥90</span><span>puntaje Lighthouse objetivo</span></li>
+      </ul>
+    </section>
+
+    <section id="skills" class="container" aria-labelledby="h-skills">
+      <h2 id="h-skills">Skills</h2>
+      <div class="grid cols-4">
+        <article class="card">
+          <h3>Diseño UX</h3>
+          <p>Investigación, benchmark, arquitectura de información y tests de usabilidad.</p>
+          <ul class="chips">
+            <li>Proto-personas</li>
+            <li>Card sorting</li>
+            <li>Wireframes</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Diseño UI</h3>
+          <p>Sistemas de diseño con paleta, escala tipográfica y espaciado en múltiplos de 8.</p>
+          <ul class="chips">
+            <li>Figma</li>
+            <li>Design system</li>
+            <li>Prototipado</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Front-end</h3>
+          <p>Maquetación mobile-first, semántica y accesible (WCAG 2.2 AA).</p>
+          <ul class="chips">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>Tailwind</li>
+            <li>JS vanilla</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Herramientas</h3>
+          <p>Versionado y despliegue continuo para entregar de forma ordenada.</p>
+          <ul class="chips">
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>Netlify</li>
+            <li>Lighthouse</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="container" aria-labelledby="h-projects">
+      <h2 id="h-projects">Proyectos</h2>
+      <div class="grid cols-3">
+        <article class="card project">
+          <div class="mock" role="img" aria-label="Mockup del checkout de Cubrí Seguros: pasos y resumen de pago">
+            <span></span><span></span><span></span></div>
+          <p class="meta">2026 · Caso de estudio</p>
+          <h3>Cubrí Seguros: contratación digital</h3>
+          <p>Checkout en pasos para contratar un seguro de celular desde el móvil.</p>
+          <p><strong>Resultado:</strong> flujo de 4 pasos con validación en línea y resumen siempre visible.</p>
+          <ul class="chips">
+            <li>Figma</li>
+            <li>Tailwind v4</li>
+            <li>Basecoat UI</li>
+            <li>JS</li>
+          </ul>
+          <button class="btn btn-primary" data-open="case">Leer caso de estudio</button>
+        </article>
+        <article class="card project">
+          <div class="mock mock-b" role="img"
+            aria-label="Mockup de la landing Coffea: portada con imagen de café y botón de pedido">
+            <span></span><span></span><span></span></div>
+          <p class="meta">2026 · Landing page</p>
+          <h3>Coffea: landing de cafetería</h3>
+          <p>Landing responsive en HTML y CSS puro a partir de un diseño de Figma.</p>
+          <p><strong>Aprendizaje:</strong> fidelidad al diseño usando variables CSS, Grid y Flexbox.</p>
+          <ul class="chips">
+            <li>Figma</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>Netlify</li>
+          </ul>
+          <div class="actions"><button class="btn btn-primary" data-open="case-coffea">Leer caso de estudio</button><a
+              class="btn btn-secondary" href="https://TU-SITIO-COFFEA.netlify.app" target="_blank"
+              rel="noopener noreferrer">Ver demo</a></div>
+        </article>
+        <article class="card project">
+          <div class="mock mock-c" role="img" aria-label="Mockup de este portfolio: hero con título grande y tarjetas">
+            <span></span><span></span><span></span></div>
+          <p class="meta">2026 · Proyecto final</p>
+          <h3>Este portfolio</h3>
+          <p>Sitio one-page diseñado y prototipado en Figma, maquetado sin frameworks JS.</p>
+          <p><strong>Resultado:</strong> navegación 100% por teclado y Lighthouse objetivo ≥ 90.</p>
+          <ul class="chips">
+            <li>Figma</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>Git</li>
+          </ul>
+          <a class="btn btn-secondary" href="https://github.com/TU-USUARIO/portfolio" target="_blank"
+            rel="noopener noreferrer">Ver repositorio</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="container" aria-labelledby="h-exp">
+      <h2 id="h-exp">Experiencia y formación</h2>
+      <ol class="timeline">
+        <li><span class="period">2024 – actualidad</span>
+          <h3>Lic. en Sistemas de Información</h3>
+          <p class="org">UADER · FCyT, Concepción del Uruguay</p>
+          <ul>
+            <li>Cursada de Diseño UX-UI, con proyectos prácticos desplegados.</li>
+            <li>Cursada de Arquitectura de Computadora y Estructuras de Datos.</li>
+          </ul>
+        </li>
+        <li><span class="period">2026</span>
+          <h3>Proyectos prácticos de Diseño UX-UI</h3>
+          <p class="org">Facultad de Ciencia y Tecnología</p>
+          <ul>
+            <li>Landing Coffea y checkout de seguros desde Figma a código.</li>
+            <li>Versionado con Git y deploy automático en Netlify.</li>
+          </ul>
+        </li>
+      </ol>
+    </section>
+
+    <section id="about" class="container" aria-labelledby="h-about">
+      <h2 id="h-about">Sobre mí</h2>
+      <div class="about">
+        <div>
+          <p>Soy Dylan, estudiante de Sistemas de Información en Concepción del Uruguay. Me interesa el punto donde el
+            diseño y el código se encuentran: que lo diseñado en Figma sea lo que el usuario realmente ve y usa.</p>
+          <div class="grid cols-3">
+            <article class="card">
+              <h3>Claridad</h3>
+              <p>Interfaces que se entienden en segundos.</p>
+            </article>
+            <article class="card">
+              <h3>Accesibilidad</h3>
+              <p>Diseñar para todas las personas y dispositivos.</p>
+            </article>
+            <article class="card">
+              <h3>Fidelidad</h3>
+              <p>Del prototipo al código sin perder detalle.</p>
+            </article>
+          </div>
+        </div>
+        <img src="" width="320" height="320" loading="lazy" alt="">
+      </div>
+    </section>
+
+    <section id="contact" class="container" aria-labelledby="h-contact">
+      <div class="contact">
+        <h2 id="h-contact">¿Trabajamos juntos?</h2>
+        <p>Estoy buscando mi primera experiencia en UX/UI y front-end. Escribime y respondo en menos de 48 horas.</p>
+        <div class="actions">
+          <a class="btn btn-light" href="mailto:tu-email@ejemplo.com">tu-email@ejemplo.com</a>
+          <a class="btn btn-outline" href="https://www.linkedin.com/in/TU-USUARIO" target="_blank"
+            rel="noopener noreferrer">LinkedIn</a>
+          <a class="btn btn-outline" href="https://github.com/TU-USUARIO" target="_blank"
+            rel="noopener noreferrer">GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container foot">
+      <p>© 2026 Dylan Meharú. Hecho con HTML, CSS y JS vanilla. Tipografía Montserrat.</p>
+      <nav aria-label="Pie de página">
+        <ul>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Proyectos</a></li>
+          <li><a href="#contact">Contacto</a></li>
+          <li><a href="https://github.com/TU-USUARIO" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/TU-USUARIO" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <dialog id="case" aria-labelledby="case-title">
+    <article>
+      <button class="close" data-close aria-label="Cerrar caso de estudio">✕</button>
+      <h2 id="case-title">Caso de estudio: Cubrí Seguros</h2>
+      <h3>Problema</h3>
+      <p>Contratar un seguro online suele ser largo y confuso; muchas personas abandonan antes de pagar.</p>
+      <h3>Proceso</h3>
+      <p>Definí un proto-persona, comparé 3 flujos de contratación, armé wireframes y un design system en Figma, y probé
+        el prototipo con 3 personas.</p>
+      <h3>Solución</h3>
+      <p>Un checkout de 4 pasos (datos, equipo, plan y pago) con validación en línea y un resumen fijo del precio.</p>
+      <h3>Resultado</h3>
+      <p>Las 3 personas completaron la contratación sin ayuda; ajusté etiquetas y el contraste de errores según sus
+        hallazgos.</p>
+    </article>
+  </dialog>
+  <dialog id="case-coffea" aria-labelledby="case-coffea-title">
+    <article>
+      <button class="close" data-close aria-label="Cerrar caso de estudio">✕</button>
+      <h2 id="case-coffea-title">Caso de estudio: Coffea</h2>
+      <h3>Problema</h3>
+      <p>Una cafetería necesitaba una landing que mostrara menú, historia y contacto de forma clara en el celular, sin
+        depender de frameworks ni de un sitio pesado.</p>
+      <h3>Proceso</h3>
+      <p>Partí de un diseño de Figma y lo analicé por secciones. Definí variables CSS para la paleta y el espaciado en
+        múltiplos de 8, y maqueté mobile-first con Flexbox y Grid.</p>
+      <h3>Solución</h3>
+      <p>Una landing estática en HTML5 y CSS3, sin JavaScript, con encabezados ordenados, imágenes optimizadas y botones
+        con estados hover, foco y activo.</p>
+      <h3>Resultado</h3>
+      <p>El sitio se ve igual al diseño en 375, 768 y 1280 px y se publica automáticamente en Netlify desde el
+        repositorio. Aprendí a mantener fidelidad al Figma con un sistema de variables.</p>
+    </article>
+  </dialog>
+  <script src="script.js" defer></script>
+</body>
+
+</html>
