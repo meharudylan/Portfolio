@@ -50,11 +50,11 @@ Todo el desarrollo del portfolio partió de un proceso riguroso documentado en F
 
 ## 🔍 Fidelidad de Implementación (Figma vs. Sitio Web)
 
-Para asegurar consistencia visual y de interacción entre el diseño y el código final, se implementaron las mismas medidas, fuentes y variables de color:
+Para asegurar consistencia visual y de interacción entre el diseño y el código final, se implementaron las mismas medidas, fuentes y variables de color en escala mobile (375 px):
 
-| Figma (Prototipo Mobile) | Implementación Real (WebP) |
+| Figma (Prototipo Mobile 375) | Implementación Real en Producción |
 |:---:|:---:|
-| ![Prototipo Figma Mobile](assets/docs/figma/08-prototipo-mobile-oscuro.png) | ![Implementación Mobile](assets/docs/mobile-web.webp) |
+| <img src="assets/docs/figma/mobile-hero-figma.png" width="350" alt="Prototipo Figma Mobile" /> | <img src="assets/docs/mobile-web-hero.webp" width="350" alt="Implementación Web Mobile" /> |
 
 ---
 
@@ -70,7 +70,9 @@ Para asegurar consistencia visual y de interacción entre el diseño y el códig
 
 ## 📊 Auditoría de Rendimiento y Calidad (Lighthouse)
 
-Auditoría oficial de **Lighthouse CLI** ejecutada en emulación mobile sobre la URL en producción:
+<p align="center">
+  <img src="assets/docs/lighthouse-scores.webp" width="700" alt="Resultados oficiales de la auditoría Lighthouse: 98 en Performance, 100 en Accesibilidad, 100 en Buenas Prácticas y 100 en SEO" />
+</p>
 
 | Métrica | Puntaje Obtenido | Requisito PRD | Estado |
 |---|:---:|:---:|:---:|
