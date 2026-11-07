@@ -54,7 +54,7 @@ Para asegurar consistencia visual y de interacción entre el diseño y el códig
 
 | Figma (Prototipo Mobile) | Implementación Real (WebP) |
 |:---:|:---:|
-| ![Prototipo Figma Mobile](assets/docs/figma/08-prototipo-mobile-oscuro.png) | ![Implementación Mobile](assets/docs/portfolio.webp) |
+| ![Prototipo Figma Mobile](assets/docs/figma/08-prototipo-mobile-oscuro.png) | ![Implementación Mobile](assets/docs/mobile-web.webp) |
 
 ---
 

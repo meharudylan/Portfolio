@@ -4,9 +4,15 @@ btn.addEventListener('click', () => {
   const open = nav.classList.toggle('open');
   btn.setAttribute('aria-expanded', open);
   btn.setAttribute('aria-label', open ? 'Cerrar menú' : 'Abrir menú');
+  btn.textContent = open ? '✕' : '☰';
 });
 nav.addEventListener('click', e => {
-  if (e.target.closest('a')) { nav.classList.remove('open'); btn.setAttribute('aria-expanded', 'false'); }
+  if (e.target.closest('a')) {
+    nav.classList.remove('open');
+    btn.setAttribute('aria-expanded', 'false');
+    btn.setAttribute('aria-label', 'Abrir menú');
+    btn.textContent = '☰';
+  }
 });
 document.querySelectorAll('[data-open]').forEach(b => {
   const dlg = document.getElementById(b.dataset.open);
