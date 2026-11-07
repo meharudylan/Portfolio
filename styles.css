@@ -513,3 +513,21 @@ dialog h3 {
 .contact :focus-visible {
   outline-color: var(--accent)
 }
+
+.section-intro {
+  max-width: 60ch;
+  color: var(--muted);
+  margin: -8px 0 var(--s3)
+}
+
+.badge-new {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 2px 10px;
+  border-radius: 999px;
+  background: #dbeafe;
+  color: #1e3a8a;
+  font-size: .75rem;
+  font-style: normal;
+  font-weight: 600
+}
