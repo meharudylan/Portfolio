@@ -344,30 +344,7 @@ h3 {
   font-weight: 600
 }
 
-.mock {
-  aspect-ratio: 16/10;
-  border-radius: 12px;
-  background: var(--tag-bg);
-  display: grid;
-  place-content: center;
-  gap: 8px;
-  padding: var(--s2)
-}
-
-.mock span {
-  display: block;
-  height: 12px;
-  width: 140px;
-  background: var(--surface);
-  opacity: .8;
-  border-radius: 6px
-}
-
-.mock span:first-child {
-  width: 90px;
-  height: 20px
-}
-
+/* .mock styles removed — replaced by real project screenshots */
 .timeline {
   border-left: 3px solid var(--secondary);
   padding-left: var(--s3);
