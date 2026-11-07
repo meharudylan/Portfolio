@@ -541,3 +541,38 @@ dialog h3 {
 .hero h1 {
   max-width: 18ch
 }
+
+/* Modo oscuro: azul marino de fondo y acento beige */
+[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #0c2340;
+  --surface: #14335c;
+  --ink: #e8eef7;
+  --muted: #b4c3db;
+  --line: #2a4670;
+  --primary-bg: #e8dcc8;
+  --primary-hover: #f3ecdd;
+  --primary-text: #081a30;
+  --secondary: #93b4f5;
+  --focus: #e8dcc8;
+  --tag-bg: #2a4670;
+  --tag-text: #dbeafe;
+  --ok: #86efac;
+  --err: #fca5a5
+}
+
+.theme-btn {
+  font-size: 1.25rem;
+  background: none;
+  color: var(--ink);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  width: 44px;
+  height: 44px;
+  cursor: pointer;
+  transition: background .2s
+}
+
+.theme-btn:hover {
+  background: var(--tag-bg)
+}
