@@ -16,4 +16,3 @@ document.querySelectorAll('dialog').forEach(dlg => {
   dlg.querySelector('[data-close]').addEventListener('click', () => dlg.close());
   dlg.addEventListener('click', e => { if (e.target === dlg) dlg.close(); });
 });
-
