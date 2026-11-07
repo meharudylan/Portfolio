@@ -530,3 +530,14 @@ dialog h3 {
     transition: none !important
   }
 }
+
+.eyebrow {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--muted);
+  margin-top: var(--s2)
+}
+
+.hero h1 {
+  max-width: 18ch
+}
