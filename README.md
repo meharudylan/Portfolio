@@ -21,6 +21,14 @@
 ### Coffea — landing page
 ![Captura de Coffea: landing de cafetería con imagen de café y botón Order Now](assets/docs/coffea.webp)
 
+### Proceso de diseño en Figma
+
+| Wireframes (Baja Fidelidad) | Design System (Figma) |
+|---|---|
+| ![Wireframes de baja fidelidad](assets/docs/figma/03-wireframes.png) | ![Design System en Figma](assets/docs/figma/05-design-system-claro.png) |
+
+> Todos los frames exportados en alta resolución se encuentran en [`assets/docs/figma/`](assets/docs/figma/) (Research, Arquitectura, Wireframes, Design System y Prototipos Mobile/Desktop).
+
 ### Reporte Lighthouse Mobile
 - **Performance:** 98 / 100
 - **Accessibility:** 100 / 100
@@ -79,7 +87,13 @@ Página única con navegación por anclas. Secciones en orden:
 
 ## Uso de IA
 
-_Completar: describir brevemente qué herramientas de IA se usaron y para qué tareas (redacción, código, imágenes, etc.)_
+Se utilizó asistencia de inteligencia artificial (Antigravity / Gemini) como herramienta de pair programming y soporte técnico en las siguientes tareas:
+- Maquetación y verificación de estándares de accesibilidad WCAG 2.2 AA (navegación por teclado, atributos ARIA, contraste).
+- Scripting de optimización automatizada de imágenes (conversión a WebP y redimensionado).
+- Ejecución y diagnóstico de auditorías automatizadas de Lighthouse CLI.
+- Estructuración de la documentación técnica y pasos de despliegue en el README.
+
+La arquitectura de información, el concepto visual, la investigación y los componentes fueron diseñados y prototipados originalmente en Figma.
 
 ---
 
