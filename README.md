@@ -1,128 +1,143 @@
-# Portfolio · Dylan Meharú
+# Portfolio Web Personal · Dylan Meharú
 
-> Sitio one-page diseñado en Figma y maquetado en HTML5, CSS3 y JavaScript vanilla. Responsive, accesible (WCAG 2.2 AA) y con modo oscuro/claro.
-
-- **Sitio live:** [portfolio-dylangmeharu.netlify.app](https://portfolio-dylangmeharu.netlify.app/)
-- **Figma:** [Ver research, wireframes, design system y prototipo](https://www.figma.com/design/i3gSAc9BGZpTITtgHVvRyM/Portfolio-Dylan-Mehar%C3%BA-%E2%80%93-Trabajo-Final-UX-UI?node-id=17-18&t=4sfGgyxOED5d3ulN-1)
-- **Stack:** HTML5 · CSS3 (custom properties, Grid, Flexbox) · JavaScript vanilla
-- **Tipografía:** Montserrat — Google Fonts
-- **Deploy:** Netlify — CD automático desde `main`
+**Trabajo Final de Cátedra — Diseño UX-UI (2026)**  
+*Licenciatura en Sistemas de Información — Facultad de Ciencia y Tecnología (FCyT · UADER)*  
+**Docente:** Mg. Ernesto Ledesma · **Estudiante:** Dylan Meharú
 
 ---
 
-## Capturas
+## 📌 Enlaces del Proyecto
 
-### Portfolio — hero y highlights
-![Captura del portfolio: hero con título grande, badge de disponibilidad y tarjetas de highlights](assets/docs/portfolio.webp)
-
-### Cubrí Seguros — caso de estudio
-![Captura de Cubrí Seguros: hero con selector de tipo de seguro y botón cotizar ahora](assets/docs/cubri.webp)
-
-### Coffea — landing page
-![Captura de Coffea: landing de cafetería con imagen de café y botón Order Now](assets/docs/coffea.webp)
-
-### Proceso de diseño en Figma
-
-| Wireframes (Baja Fidelidad) | Design System (Figma) |
-|---|---|
-| ![Wireframes de baja fidelidad](assets/docs/figma/03-wireframes.png) | ![Design System en Figma](assets/docs/figma/05-design-system-claro.png) |
-
-> Todos los frames exportados en alta resolución se encuentran en [`assets/docs/figma/`](assets/docs/figma/) (Research, Arquitectura, Wireframes, Design System y Prototipos Mobile/Desktop).
-
-### Reporte Lighthouse Mobile
-- **Performance:** 98 / 100
-- **Accessibility:** 100 / 100
-- **Best Practices:** 100 / 100
-- **SEO:** 100 / 100
-
-> El reporte interactivo completo generado para mobile se encuentra disponible en [`assets/docs/lighthouse.html`](assets/docs/lighthouse.html).
+- 🌐 **Sitio Web Desplegado (Producción):** [portfolio-dylangmeharu.netlify.app](https://portfolio-dylangmeharu.netlify.app/)
+- 🎨 **Archivo de Figma (Research, Wireframes, Design System y Prototipos):** [Ver en Figma](https://www.figma.com/design/i3gSAc9BGZpTITtgHVvRyM/Portfolio-Dylan-Mehar%C3%BA-%E2%80%93-Trabajo-Final-UX-UI?node-id=17-18&t=4sfGgyxOED5d3ulN-1)
+- 💻 **Repositorio de GitHub:** [github.com/meharudylan/Portfolio](https://github.com/meharudylan/Portfolio)
 
 ---
 
-## Proyectos incluidos
+## 🎯 Resumen y Propuesta de Valor
 
-| Proyecto | Tipo | Stack | Demo |
-|----------|------|-------|------|
-| **Este portfolio** | Proyecto final UX/UI | HTML5, CSS3, JS vanilla | [portfolio-dylangmeharu.netlify.app](https://portfolio-dylangmeharu.netlify.app/) |
-| **Cubrí Seguros** | Caso de estudio UX/UI | Figma · Tailwind v4 · Basecoat UI · JS | [seguroscubri.netlify.app](https://seguroscubri.netlify.app/) |
-| **Coffea** | Landing page | Figma · HTML5 · CSS3 | [coffea-landing.netlify.app](https://coffea-landing.netlify.app/) |
+Sitio web *one-page* diseñado bajo metodología de diseño centrado en el usuario (DCU) y maquetado de forma estática con **HTML5 semántico**, **CSS3 moderno** (Grid, Flexbox, Custom Properties) y **JavaScript vanilla**.
 
----
-
-## Estructura del sitio
-
-Página única con navegación por anclas. Secciones en orden:
-
-1. **Header** — logo DM, anclas de navegación, toggle modo oscuro/claro, CTA Contacto
-2. **Hero** — nombre, rol, propuesta de valor, disponibilidad (UTC−3, Entre Ríos), CTAs
-3. **Highlights** — 4 cifras reales: años de estudio, proyectos, herramientas, puntaje Lighthouse
-4. **Skills** — UX, UI, Front-end y Herramientas, con chips de tecnologías
-5. **Proyectos** — 3 proyectos con imagen, año, descripción, resultado, herramientas y enlaces
-6. **Formación** — timeline con período, institución y dos logros por ítem
-7. **Sobre mí** — párrafo, foto y tres principios de trabajo
-8. **Contacto** — email `mailto:`, LinkedIn y GitHub
-9. **Footer** — copyright, navegación repetida y redes sociales
+- **Mobile-first:** diseño y layout pensados para dispositivos móviles y escalados progresivamente a 768 px y 1280 px.
+- **Accesibilidad integral (WCAG 2.2 AA):** navegación 100% por teclado con foco visible, enlace de salto al contenido (*skip link*), roles y estados ARIA (`aria-expanded`, `aria-controls`), y soporte para `prefers-reduced-motion`.
+- **Tema adaptable (Dark/Light):** detección automática de preferencia de sistema (`prefers-color-scheme`) con alternador manual persistente en `localStorage`.
+- **Sin dependencias pesadas:** 0 frameworks JS (sin React ni librerías invasivas), garantizando máxima velocidad de carga.
 
 ---
 
-## Características técnicas
+## 📐 Proceso de Diseño UX/UI (Figma)
 
-- **Mobile-first** — probado en 375 px, 768 px y 1280 px sin scroll horizontal
-- **Accesibilidad WCAG 2.2 AA** — skip link, `lang="es"`, ARIA labels, `aria-expanded` en menú mobile, `focus-visible`, `prefers-reduced-motion`
-- **Modo oscuro/claro** — detecta `prefers-color-scheme`, persiste en `localStorage`
-- **Sin frameworks JS** — cero dependencias en producción
-- **SEO** — `title`, `meta description`, Open Graph (`og:title`, `og:description`, `og:image`), `theme-color`, favicon SVG inline
-- **Imágenes** — WebP optimizado, `width`/`height` declarados, `loading="lazy"` bajo el primer pliegue
-- **Lighthouse objetivo ≥ 90** en Performance, Accessibility, Best Practices y SEO
+Todo el desarrollo del portfolio partió de un proceso riguroso documentado en Figma antes de codificar:
 
----
+1. **Investigación & Benchmark:** análisis de referentes del sector y definición del usuario objetivo (reclutadores técnicos y líderes de producto) que necesitan evaluar perfil y proyectos en menos de 30 segundos.
+2. **Arquitectura de Información:** estructuración en 9 secciones obligatorias enlazadas por anclas accesibles.
+3. **Wireframes:** prototipado de baja fidelidad para resoluciones móvil y escritorio.
+4. **Design System:** definición de escala tipográfica (Montserrat en escala armónica), paleta cromática con contrastes contrastados (azul marino `#0C2340`, acento beige `#E8DCC8`, azul de acción `#1D4ED8`), espaciado en múltiplos de 8 y componentes interactivos con todos sus estados (:hover, :focus-visible, :active).
 
-## Recursos y fuentes
+### Evidencias del Proceso en Figma
 
-- **Tipografía:** [Montserrat](https://fonts.google.com/specimen/Montserrat) — Google Fonts (SIL Open Font License)
-- **Template:** Ninguno — diseño 100 % original a partir del proceso UX/UI documentado en Figma
-- **Imágenes:** capturas propias de los proyectos desarrollados
+| Wireframes (Baja Fidelidad) | Design System y Tokens |
+|:---:|:---:|
+| ![Wireframes](assets/docs/figma/03-wireframes.png) | ![Design System](assets/docs/figma/05-design-system-claro.png) |
 
----
+| Arquitectura de Información | Componentes Maestros |
+|:---:|:---:|
+| ![Arquitectura de información](assets/docs/figma/02-arquitectura.png) | ![Componentes maestros](assets/docs/figma/04-componentes.png) |
 
-## Uso de IA
-
-Se utilizó asistencia de inteligencia artificial (Antigravity / Gemini) como herramienta de pair programming y soporte técnico en las siguientes tareas:
-- Maquetación y verificación de estándares de accesibilidad WCAG 2.2 AA (navegación por teclado, atributos ARIA, contraste).
-- Scripting de optimización automatizada de imágenes (conversión a WebP y redimensionado).
-- Ejecución y diagnóstico de auditorías automatizadas de Lighthouse CLI.
-- Estructuración de la documentación técnica y pasos de despliegue en el README.
-
-La arquitectura de información, el concepto visual, la investigación y los componentes fueron diseñados y prototipados originalmente en Figma.
+> 📁 Todos los frames exportados en escala 2x se encuentran disponibles en [`assets/docs/figma/`](assets/docs/figma/).
 
 ---
 
-## Despliegue en Netlify
+## 🔍 Fidelidad de Implementación (Figma vs. Sitio Web)
 
-1. Hacer fork o clonar este repositorio en tu cuenta de GitHub.
-2. Ir a [netlify.com](https://netlify.com) → **Add new site → Import an existing project**.
-3. Conectar con GitHub y seleccionar el repositorio `Portfolio`.
-4. Configuración de build:
-   - **Base directory:** _(vacío)_
-   - **Build command:** _(vacío — sitio estático)_
-   - **Publish directory:** `.` _(raíz)_
-5. Hacer clic en **Deploy site**.
-6. Netlify genera una URL pública con HTTPS. Cada `push` a `main` redespliega automáticamente.
-7. Agregar la URL generada al campo **Sitio live** de este README y a la descripción del repositorio en GitHub.
+Para asegurar consistencia visual y de interacción entre el diseño y el código final, se implementaron las mismas medidas, fuentes y variables de color:
+
+| Figma (Prototipo Mobile) | Implementación Real (WebP) |
+|:---:|:---:|
+| ![Prototipo Figma Mobile](assets/docs/figma/08-prototipo-mobile-oscuro.png) | ![Implementación Mobile](assets/docs/portfolio.webp) |
 
 ---
 
-## Correr localmente
+## 💼 Proyectos y Casos de Estudio
+
+| Proyecto | Tipo | Metodología & Stack | Demo / Repositorio |
+|---|---|---|---|
+| **Este portfolio** | Proyecto final integrador | Figma · HTML5 · CSS3 · JS vanilla | [Ver demo](https://portfolio-dylangmeharu.netlify.app/) · [Repo](https://github.com/meharudylan/Portfolio) |
+| **Cubrí Seguros** | Caso de estudio UX/UI | Checkout en 4 pasos · Tailwind v4 · Basecoat UI | [Ver demo](https://seguroscubri.netlify.app/) · Modal en sitio |
+| **Coffea** | Landing page de cafetería | Diseño Figma a código · HTML5 · CSS3 Grid/Flexbox | [Ver demo](https://coffea-landing.netlify.app/) · Modal en sitio |
+
+---
+
+## 📊 Auditoría de Rendimiento y Calidad (Lighthouse)
+
+Auditoría oficial de **Lighthouse CLI** ejecutada en emulación mobile sobre la URL en producción:
+
+| Métrica | Puntaje Obtenido | Requisito PRD | Estado |
+|---|:---:|:---:|:---:|
+| ⚡ **Performance** | **98 / 100** | ≥ 90 | **Superado** |
+| ♿ **Accessibility** | **100 / 100** | ≥ 90 | **Óptimo** |
+| 🛡️ **Best Practices** | **100 / 100** | ≥ 90 | **Óptimo** |
+| 🔍 **SEO** | **100 / 100** | ≥ 90 | **Óptimo** |
+
+> 📄 El reporte interactivo completo generado por Lighthouse está archivado en [`assets/docs/lighthouse.html`](assets/docs/lighthouse.html).
+
+---
+
+## 🛠️ Stack Tecnológico y Fuentes
+
+- **Estructura:** HTML5 semántico (`<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<dialog>`, `<footer>`).
+- **Estilos:** CSS3 nativo organizado con variables (`:root`), Flexbox y CSS Grid.
+- **Tipografía:** [Montserrat](https://fonts.google.com/specimen/Montserrat) vía Google Fonts con `font-display: swap` y preconnect.
+- **Iconografía & Assets:** Favicon SVG dinámico inline, imágenes optimizadas a formato WebP moderno con atributos `width`, `height` y `loading="lazy"`.
+- **Plantillas:** Ninguna utilizada. El diseño fue concebido 100% de forma original en Figma.
+
+---
+
+## 🤖 Declaración de Uso de Inteligencia Artificial (IA)
+
+Conforme a los criterios de evaluación de la cátedra sobre el uso transparente de IA:
+
+- **Herramientas empleadas:** Antigravity (Gemini).
+- **Alcance de la asistencia:**
+  - Soporte en maquetación accesible y verificación de atributos ARIA y navegación por teclado.
+  - Scripting para redimensionado y conversión de imágenes al formato WebP.
+  - Ejecución automatizada de la auditoría Lighthouse CLI con headless browser.
+  - Redacción técnica y formato del `README.md` estandarizado.
+- **Autoría humana:** La totalidad del proceso de diseño, arquitectura de información, sistema de diseño en Figma, selección tipográfica y conceptualización de marca son autoría original del estudiante.
+
+---
+
+## 🚀 Despliegue Continuo (CI/CD)
+
+El sitio cuenta con integración y despliegue continuo configurado en **Netlify**:
+
+1. Repositorio vinculado a la rama principal (`main`).
+2. Despliegue automatizado ante cada `push`.
+3. Configuración del servicio:
+   - **Base directory:** *(raíz)*
+   - **Build command:** *(sin build requerido, sitio estático puro)*
+   - **Publish directory:** `.` *(raíz)*
+4. Enrutamiento de página de error 404 personalizada configurada en [`404.html`](404.html).
+
+---
+
+## 💻 Ejecución Local
+
+Para clonar e inspeccionar el proyecto localmente sin necesidad de instalar dependencias ni herramientas de compilación:
 
 ```bash
 git clone https://github.com/meharudylan/Portfolio.git
 cd Portfolio
-# Abrir index.html directamente en el navegador
-# No requiere servidor, build ni dependencias
+# Abrir index.html en cualquier navegador moderno
 ```
 
 ---
 
-## Autor
+## 📬 Contacto
 
-Dylan Meharú · [dylan.g.meharu@gmail.com](mailto:dylan.g.meharu@gmail.com) · [LinkedIn](https://www.linkedin.com/in/dylan-meharu-67aa97449/) · [GitHub](https://github.com/meharudylan)
+**Dylan Meharú**  
+*Estudiante de Licenciatura en Sistemas de Información (UADER · FCyT)*  
+Concepción del Uruguay, Entre Ríos, Argentina  
+- ✉️ Email: [dylan.g.meharu@gmail.com](mailto:dylan.g.meharu@gmail.com)  
+- 💼 LinkedIn: [linkedin.com/in/dylan-meharu-67aa97449](https://www.linkedin.com/in/dylan-meharu-67aa97449/)  
+- 🐙 GitHub: [github.com/meharudylan](https://github.com/meharudylan)
