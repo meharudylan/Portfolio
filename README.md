@@ -94,11 +94,11 @@ Tres palabras clave definen la marca personal: **claro, confiable, preciso**.
 
 ## 💼 Proyectos y casos de estudio
 
-| Proyecto | Tipo | Stack | Demo / Repositorio |
+| Proyecto | Tipo | Stack | Enlace / Repositorio |
 |---|---|---|---|
-| **Este portfolio** | Proyecto final integrador | Figma · HTML5 · CSS3 · JS vanilla | [Ver demo](https://portfolio-dylangmeharu.netlify.app/) · [Repo](https://github.com/meharudylan/Portfolio) |
-| **Cubrí Seguros** | Caso de estudio UX/UI | Checkout en pasos · Tailwind v4 · Basecoat UI | [Ver demo](https://seguroscubri.netlify.app/) · Modal en el sitio |
-| **Coffea** | Landing page de cafetería | Figma a código · HTML5 · CSS3 | [Ver demo](https://coffea-landing.netlify.app/) · Modal en el sitio |
+| **Este portfolio** | Proyecto final integrador | Figma · HTML5 · CSS3 · JS vanilla | [Repositorio](https://github.com/meharudylan/Portfolio) |
+| **Cubrí Seguros** | Caso de estudio UX/UI | Checkout en pasos · Tailwind v4 · Basecoat UI | [Ver sitio](https://seguroscubri.netlify.app/) · Modal en el sitio |
+| **Coffea** | Landing page de cafetería | Figma a código · HTML5 · CSS3 | [Ver sitio](https://coffea-landing.netlify.app/) · Modal en el sitio |
 
 ---
 
